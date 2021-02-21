@@ -11,7 +11,7 @@ createBtnRef.addEventListener("click", () => {
 destroyBtnRef.addEventListener("click", deleteBoxes);
 
 function createBoxes(amount) {
-  for (let i = 0; i <= amount; i += 1) {
+  for (let i = 1; i <= amount; i += 1) {
     const box = document.createElement("div");
     box.style.height = `${30 + i * 10}px`;
     box.style.width = `${30 + i * 10}px`;
